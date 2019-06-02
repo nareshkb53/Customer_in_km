@@ -8,11 +8,11 @@ $Cust_in_km=customer_in_range($file_name);
 | Step 1.:- Get the text file into string using the file_get_contents 
 | Step 2.:-Explodeded the data with new line   
 | Step 3.:-For the sorting of the array user_id is used as a key in the array 
-| Step 4.:-caluclate  the distance using distance_in_km function with two parametr that is declared below 
-| Step 5.:-If the Distance is Less then or Equal to the 100KM then saved that pair into the cust_in_100km
-| Step 6.:-Unset the unnecessary values that are parasent in the $Cust_data_arra 
-| Step 6.:-For the sorting of the array user_id is used as a key of the array and array is sorted using the key sort function 
-| Step 7.:-Return the array within the given kilometer range 
+| Step 4.:-caluclate  the distance using distance_in_km function that is declared below with two parametr  
+| Step 5.:-If the Distance is Less then or Equal to the KM(given) then saved that pair into the cust_in_km
+| Step 6.:-Unset the unnecessary values that are parasent in the $Cust_data_array 
+| Step 6.:-For the sorting of the array user_id is used as a key and array is sorted using the key sort function 
+| Step 7.:-Return the array with the values user_id and name within the given kilometer range 
 */
 
 function customer_in_range($file_name,$KM=100){
