@@ -1,5 +1,5 @@
 <?php
-require_once('customers_in_km.php');
+require('customers_in_km.php');
 $file_name='Customers _Assignment_Coding Challenge (Upto 6 Years) (2).txt';
 $Cust_in_km=customer_in_range($file_name);
 ?>
