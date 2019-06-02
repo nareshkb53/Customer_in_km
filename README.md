@@ -1,6 +1,6 @@
 # PhpTask
 
-### Cutomers Within the Given Kilometer Range
+### Customers Within the Given Kilometer Range
 Here , I have created two Function to implement the task.
 
 First function is calculating the distance from dublin to custumer's location using latitude and lognitutde.  
