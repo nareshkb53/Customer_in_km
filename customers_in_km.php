@@ -1,8 +1,5 @@
 
 <?php
-
-$file_name='Customers _Assignment_Coding Challenge (Upto 6 Years) (2).txt';
-$Cust_in_km=customer_in_range($file_name);
 /*
 | This function will take two parameters first is the name of the file and 2nd No of KM and will return the user_id and name of the customer in an array format 
 | Step 1.:- Get the text file into string using the file_get_contents 
@@ -55,5 +52,4 @@ function distance_in_km($latitude,$longitude){
     	return ($miles * 1.609344);
 	}	
 }
-//Function distance_in_km ends
 ?>
